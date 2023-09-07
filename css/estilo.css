@@ -57,7 +57,7 @@ header {
 
 
 .banner {
-    background-image: url(/perritos/banner.jpeg);
+    background-image: url(../perritos/banner.jpeg);
     height: 777px;
     width: 100%;
     background-repeat: no-repeat;
