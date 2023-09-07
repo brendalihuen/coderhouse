@@ -161,3 +161,7 @@ header {
     width: 65%;
 }
 
+footer {
+    border-top: solid black 5px;
+    margin: 10px;
+}
