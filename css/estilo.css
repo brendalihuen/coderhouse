@@ -183,3 +183,22 @@ header {
     width: 65%;
 }
 
+
+@media (max-width: 768px) {
+    .nosotros p {
+      font-size: 30px; 
+    }
+  }
+
+@media (max-width: 768px) {
+    .nosotros h2 {
+      font-size: 40px; 
+    }
+  }
+
+  @media (max-width: 768px) {
+    .nosotros {
+      grid-template-columns: 1fr; /* Cambia a una sola columna */
+    }
+
+}
