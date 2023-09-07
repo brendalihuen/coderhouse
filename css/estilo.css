@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+}
+
+.miLogo {
+    width: 120px;
+}
+
+
+
+header {
+    border-top: solid 20px #2889c1;
+    border-bottom: solid 20px #2889c1;
+}
+
+
+.miLink:hover {
+    background-color: #2889c1;
+    color: #fafafa;
+    border-radius: 5px;
+    text-shadow: #2889c1;
+
+}
+
+.nav-item {
+    margin-right: 50px;
+}
+
+/* Productos*/
+
+.tituloProductos {
+    background-color: #2889c1;
+    color: #fafafa;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 16px;
+
+}
+
+
+.tituloAdopciones h2 {
+    background-color: #2889c1;
+    color: #fafafa;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px;
+
+}
+
+
+
+
+.banner {
+    background-image: url(/perritos/banner.jpeg);
+    height: 777px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+}
+
+.banner h2 {
+    padding-top: 5%;
+    padding-left: 5%;
+    color: white;
+    width: 50%;
+    font-weight: bold;
+    margin-bottom: 5%;
+    font-size: 64px;
+    text-transform: uppercase;
+    overflow: hidden;
+    
+}
+
+
+.mascota {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #4446ad4f;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0, 1);
+    margin-bottom: 25px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+
+.mascotaImagen {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.mascotaNombre {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.mascotaDescription {
+    margin-bottom: 20px;
+    overflow: hidden;
+
+}
+
+
+
+.mascotaBtn {
+    padding: 5px 10px;
+    font-size: 25px;
+    background-color: #2889c1;
+    color: #fafafa;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    margin: 20px;
+}
+
+
+
+.logoWhatsApp {
+    width: 100px;
+    position: fixed;
+    bottom: 15px;
+    right: 50px;
+    border-radius: 50px;
+}
+
+.nosotros {
+    background-color: white;
+    height: 850px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.nosotros h2 {
+    color: #2889c1;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 65%;
+}
+
