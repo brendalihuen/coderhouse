@@ -74,11 +74,14 @@ header {
     padding: 10px; 
     text-transform: uppercase;
     font-weight: bold;
-    display: inline-block;
-    overflow: hidden;
     background-color: rgba(0, 0, 0, 0.7);
   }
 
+  @media (max-width: 768px) {
+    .texto-superpuesto {
+      font-size: 14px; /* Tamaño de fuente para pantallas más pequeñas */
+    }
+  }
 
 
 
