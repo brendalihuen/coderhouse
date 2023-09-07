@@ -53,31 +53,48 @@ header {
 
 }
 
-
-
-
 .banner {
-    background-image: url(../perritos/banner.jpeg);
-    height: 777px;
+    height: auto ;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     display: grid;
     justify-content: center;
+    border-bottom: solid #2889c1 15px;
+    
+
 }
 
-.banner h2 {
-    padding-top: 5%;
-    padding-left: 5%;
-    color: white;
-    width: 50%;
-    font-weight: bold;
-    margin-bottom: 5%;
-    font-size: 64px;
+.texto-superpuesto {
+    position: absolute;
+    top: 50%; 
+    left: 40%; 
+    transform: translate(-50%, -50%);
+    color: white; 
+    padding: 10px; 
     text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
     overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+
+
+
+.contenedor-imagen {
+    position: relative;
+    display: inline-block; 
+  }
+  
+
+.imagenBanner {
+    background-size: cover;
+    width: 100%;
     
 }
+
+
 
 
 .mascota {
@@ -151,6 +168,8 @@ header {
     align-items: center;
 }
 
+ 
+ 
 .nosotros h2 {
     color: #2889c1;
     font-size: 64px;
@@ -161,7 +180,3 @@ header {
     width: 65%;
 }
 
-footer {
-    border-top: solid black 5px;
-    margin: 10px;
-}
